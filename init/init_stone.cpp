@@ -83,8 +83,8 @@ void load_device_properties() {
             "POCO X5 5G");
     } else if (hwname == "sunstone") {
         set_device_props(
-            "Redmi/sunstone/sunstone:13/TKQ1.221013.002/V14.0.5.0.TMQMIXM:user/release-keys",
-            "qssi-user 13 TKQ1.221114.001 V14.0.5.0.TMQMIXM release-keys", "sunstone_global", "Redmi", "sunstone",
+            "Redmi/sunstone/sunstone:13/TKQ1.221013.002/V14.0.6.0.TMQMIXM:user/release-keys",
+            "qssi-user 13 TKQ1.221114.001 V14.0.6.0.TMQMIXM release-keys", "sunstone_global", "Redmi", "sunstone",
             "Redmi Note 12 5G");
     }
     property_override("vendor.boot.hwversion", hwversion.c_str());
